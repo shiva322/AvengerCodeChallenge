@@ -10,6 +10,8 @@ Interesting	Coding/Algo Choices -
              "udp":{"port":[],"ip":[]}}
   outbound = {"tcp":{"port":[],"ip":[]},
               "udp":{"port":[],"ip":[]}
+         
+  Port and Ip ranges are stored as tuples.
   ```
 - Reflection usage to evaluate which inbound/outbound dict and respective child dict 
   ```
